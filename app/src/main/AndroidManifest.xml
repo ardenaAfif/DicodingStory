@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pratama.dicodingstory">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+
+    <application
+        android:name="com.pratama.dicodingstory.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StoryApp"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.pratama.dicodingstory.utils.HiltTestActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA-0FSHxGv0VVQVJuWux5UrnLhawZ1r4f8" />
+
+        <activity
+            android:name="com.pratama.dicodingstory.ui.maps.LocationActivity"
+            android:theme="@style/Theme.Location"
+            android:exported="false" />
+        <activity
+            android:name="com.pratama.dicodingstory.ui.home.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pratama.dicodingstory.ui.create.CreateStoryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pratama.dicodingstory.ui.detail.DetailStoryActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:parentActivityName="com.pratama.dicodingstory.ui.home.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pratama.dicodingstory.ui.home.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.pratama.dicodingstory.ui.auth.AuthActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pratama.dicodingstory.ui.splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.pratama.dicodingstory"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

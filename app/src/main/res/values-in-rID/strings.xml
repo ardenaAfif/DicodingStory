@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_account">Are you new member?</string>
+
+    <string name="register">Yuk Gabung</string>
+    <string name="already_have_an_account">Sudah punya akun?</string>
+    <string name="login">Masuk</string>
+
+    <string name="login_title">Masuk</string>
+    <string name="login_message">Bagikan pengalaman belajar Anda di Dicoding ke siswa lain 📑</string>
+    <string name="password_minimum_character">Password minimal 8 karakter</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_error_message">Cek email dan password dengan benar</string>
+    <string name="login_success">Selamat Datang di Dicoding Story</string>
+
+    <string name="register_title">Buat Akun</string>
+    <string name="register_message">Yuk bergabung untuk berbagi pengalaman belajar di Dicoding</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="email_error_message">Email tidak valid</string>
+    <string name="registration_error_message">Pendaftaran gagal, silahkan coba lagi.</string>
+    <string name="registration_success">Yeay, kamu berhasil join</string>
+
+    <string name="dummy_name" translatable="false">Ardena Afif</string>
+    <string name="dummy_description" translatable="false">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor…</string>
+    <string name="dummy_date">May 6, 2023</string>
+    <string name="stories">Cerita Kami</string>
+    <string name="logout">Keluar</string>
+    <string name="create_story">Ceritakan pengalamanmu</string>
+    <string name="error_occurred_message">Terjadi kesalahan</string>
+    <string name="story_illustration">Story illustration</string>
+    <string name="detail_toolbar_title">Cerita %s</string>
+    <string name="no_data">Data Kosong</string>
+    <string name="stories_not_found_error">Story tidak ditemukan</string>
+    <string name="add_story_title">Tambah Cerita</string>
+    <string name="upload_story">Unggah</string>
+    <string name="person_with_computer">Person with computer</string>
+    <string name="select_image">Pilih gambar dengan</string>
+    <string name="select_from_camera">Kamera</string>
+    <string name="select_from_gallery">Galleri</string>
+    <string name="posted_at">Diposting pada</string>
+
+    <string name="write_a_story">Ceritakan Pengalamanmu</string>
+    <string name="desc_empty_field_error">Silahkan isi kolom cerita</string>
+    <string name="empty_image_error">Silahkan pilh gambar dahulu</string>
+    <string name="image_upload_failed">Unggah stori gagal</string>
+    <string name="story_upload">Story berhasil diunggah</string>
+    <string name="language_setting">Pengaturan Bahasa</string>
+    <string name="app_name">Dicoding Story</string>
+
+    <string name="share_location">Bagikan lokasi</string>
+    <string name="location_permission_denied">Izin lokasi ditolak</string>
+    <string name="activate_location_message">Aktifkan service lokasi mu!</string>
+    <string name="retry">Muat Ulang</string>
+    <string name="loading_error_message">Gagal memuat data story</string>
+    <string name="location_permission_denied_action">Ubah pengaturan</string>
+
+    <string name="logout_dialog_title">Beneran mau keluar?</string>
+    <string name="logout_dialog_message">Setelah keluar, anda harus login kembali</string>
+    <string name="cancel">Batal</string>
+    <string name="logout_message_success">Berhasil Keluar</string>
+
+    <string name="title_home">Beranda</string>
+    <string name="setting">Pengaturan</string>
+    <string name="location">Lokasi</string>
+</resources>

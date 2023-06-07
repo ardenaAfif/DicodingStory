@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name" translatable="false">Dicoding Story</string>
+
+    <string name="new_account">Are you new member?</string>
+
+    <string name="register">Let\'s Join</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+
+    <string name="login_title">Sign In</string>
+    <string name="login_message">Share your learning in Dicoding to other student\'s 📑</string>
+    <string name="password_minimum_character">Password at least 8 characters</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_error_message">Check your email and password</string>
+    <string name="login_success">Welcome to Dicoding Story</string>
+
+    <string name="register_title">Create an Account</string>
+    <string name="register_message">Let\'s join for share your experience learn in Dicoding </string>
+    <string name="full_name">Full name</string>
+    <string name="email_error_message">Email address is not valid</string>
+    <string name="registration_error_message">Registration failed, please try again.</string>
+    <string name="registration_success">Yeay, Registration Success</string>
+
+    <string name="dummy_name" translatable="false">Ardena Afif</string>
+    <string name="dummy_description" translatable="false">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor…</string>
+    <string name="dummy_date">May 6, 2023</string>
+    <string name="stories">Our Stories</string>
+    <string name="logout">Logout</string>
+    <string name="create_story">Create your story</string>
+    <string name="error_occurred_message">An error occurred</string>
+    <string name="story_illustration">Story illustration</string>
+    <string name="detail_toolbar_title">%s\'s story</string>
+    <string name="no_data">No data</string>
+    <string name="stories_not_found_error">Stories not found</string>
+    <string name="add_story_title">Add Story</string>
+    <string name="upload_story">Upload</string>
+    <string name="person_with_computer">Person with computer</string>
+    <string name="select_image">Select image from</string>
+    <string name="select_from_camera">Camera</string>
+    <string name="select_from_gallery">Gallery</string>
+    <string name="posted_at">Posted at</string>
+
+    <string name="write_a_story">Write your story</string>
+    <string name="desc_empty_field_error">Please fill the story field</string>
+    <string name="empty_image_error">Please select an image</string>
+    <string name="image_upload_failed">Story upload failed</string>
+    <string name="story_upload">Story uploaded</string>
+    <string name="language_setting">Language Setting</string>
+
+    <string name="share_location" translatable="false">Share your location</string>
+    <!--    <string name="location" translatable="false">This is Location Page</string>-->
+    <string name="location_permission_denied">Location permission not allowed</string>
+    <string name="location_permission_denied_action" >Change Setting</string>
+    <string name="retry" >Retry</string>
+    <string name="activate_location_message">Activate your location services</string>
+    <string name="loading_error_message">Unable fetch stories data</string>
+
+    <string name="logout_dialog_title">Are you sure?</string>
+    <string name="logout_dialog_message">You need to login again after logout</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout_message_success">Logged out successfully</string>
+
+    <string name="title_home">Home</string>
+    <string name="setting">Setting</string>
+    <string name="location">Location</string>
+
+</resources>
